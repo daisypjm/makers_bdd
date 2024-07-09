@@ -1,7 +1,7 @@
-# Quality Engineering Project Resources
+# Testing Skills Resources
 
 Welcome to GitHub where we are hosting resources for the Quality Engineering
-module "Quality Engineering Project".
+module "Testing Skills".
 
 ## Usage
 
