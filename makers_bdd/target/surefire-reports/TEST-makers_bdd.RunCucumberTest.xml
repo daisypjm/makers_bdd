@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="makers_bdd.RunCucumberTest" time="52.013" tests="7" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/daisymorrison/Projects/9_testing_skills/bdd_cucumber/testing-skills-resources/makers_bdd/target/test-classes:/Users/daisymorrison/Projects/9_testing_skills/bdd_cucumber/testing-skills-resources/makers_bdd/target/classes:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-java/7.12.1/cucumber-java-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-core/7.12.1/cucumber-core-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-gherkin/7.12.1/cucumber-gherkin-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.12.1/cucumber-gherkin-messages-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/daisymorrison/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/daisymorrison/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/daisymorrison/.m2/repository/io/cucumber/datatable/7.12.1/datatable-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-plugin/7.12.1/cucumber-plugin-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/docstring/7.12.1/docstring-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/html-formatter/20.3.1/html-formatter-20.3.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/daisymorrison/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/daisymorrison/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.12.1/cucumber-junit-platform-engine-7.12.1.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-suite/1.9.3/junit-platform-suite-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.3/junit-platform-suite-api-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.3/junit-platform-suite-engine-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.3/junit-platform-suite-commons-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-java/4.9.1/selenium-java-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-api/4.9.1/selenium-api-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.9.1/selenium-chrome-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/daisymorrison/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/daisymorrison/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/daisymorrison/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/daisymorrison/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/daisymorrison/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/daisymorrison/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/daisymorrison/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/daisymorrison/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/daisymorrison/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.9.1/selenium-chromium-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-json/4.9.1/selenium-json-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.9.1/selenium-manager-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v111/4.9.1/selenium-devtools-v111-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.9.1/selenium-devtools-v112-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.9.1/selenium-devtools-v113-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.9.1/selenium-devtools-v85-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.9.1/selenium-edge-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.9.1/selenium-firefox-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-http/4.9.1/selenium-http-4.9.1.jar:/Users/daisymorrison/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.9.1/selenium-ie-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.9.1/selenium-remote-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-buffer/4.1.91.Final/netty-buffer-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-codec-http/4.1.91.Final/netty-codec-http-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-codec/4.1.91.Final/netty-codec-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-handler/4.1.91.Final/netty-handler-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-common/4.1.91.Final/netty-common-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.91.Final/netty-transport-classes-epoll-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.91.Final/netty-transport-classes-kqueue-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.91.Final/netty-transport-native-unix-common-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport/4.1.91.Final/netty-transport-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-resolver/4.1.91.Final/netty-resolver-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-api/1.25.0/opentelemetry-api-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-context/1.25.0/opentelemetry-context-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.25.0/opentelemetry-exporter-logging-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.25.0/opentelemetry-sdk-metrics-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.25.0-alpha/opentelemetry-sdk-logs-1.25.0-alpha.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.25.0-alpha/opentelemetry-api-logs-1.25.0-alpha.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.25.0-alpha/opentelemetry-api-events-1.25.0-alpha.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.25.0/opentelemetry-sdk-common-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.25.0/opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.25.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.25.0/opentelemetry-sdk-trace-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.25.0/opentelemetry-sdk-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/daisymorrison/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/daisymorrison/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/daisymorrison/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/daisymorrison/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/daisymorrison/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/daisymorrison/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/daisymorrison/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/daisymorrison/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/daisymorrison/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.9.1/selenium-safari-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-support/4.9.1/selenium-support-4.9.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/daisymorrison/Projects/9_testing_skills/bdd_cucumber/testing-skills-resources/makers_bdd/target/surefire/surefirebooter-20241129162119038_3.jar /Users/daisymorrison/Projects/9_testing_skills/bdd_cucumber/testing-skills-resources/makers_bdd/target/surefire 2024-11-29T16-21-18_994-jvmRun1 surefire-20241129162119038_1tmp surefire_0-20241129162119038_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/daisymorrison/Projects/9_testing_skills/bdd_cucumber/testing-skills-resources/makers_bdd/target/test-classes:/Users/daisymorrison/Projects/9_testing_skills/bdd_cucumber/testing-skills-resources/makers_bdd/target/classes:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-java/7.12.1/cucumber-java-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-core/7.12.1/cucumber-core-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-gherkin/7.12.1/cucumber-gherkin-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.12.1/cucumber-gherkin-messages-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/daisymorrison/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/daisymorrison/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/daisymorrison/.m2/repository/io/cucumber/datatable/7.12.1/datatable-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-plugin/7.12.1/cucumber-plugin-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/docstring/7.12.1/docstring-7.12.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/html-formatter/20.3.1/html-formatter-20.3.1.jar:/Users/daisymorrison/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/daisymorrison/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/daisymorrison/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/daisymorrison/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.12.1/cucumber-junit-platform-engine-7.12.1.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-suite/1.9.3/junit-platform-suite-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.3/junit-platform-suite-api-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.3/junit-platform-suite-engine-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.3/junit-platform-suite-commons-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/daisymorrison/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-java/4.9.1/selenium-java-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-api/4.9.1/selenium-api-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.9.1/selenium-chrome-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/daisymorrison/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/daisymorrison/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/daisymorrison/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/daisymorrison/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/daisymorrison/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/daisymorrison/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/daisymorrison/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/daisymorrison/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/daisymorrison/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.9.1/selenium-chromium-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-json/4.9.1/selenium-json-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.9.1/selenium-manager-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v111/4.9.1/selenium-devtools-v111-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.9.1/selenium-devtools-v112-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.9.1/selenium-devtools-v113-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.9.1/selenium-devtools-v85-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.9.1/selenium-edge-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.9.1/selenium-firefox-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-http/4.9.1/selenium-http-4.9.1.jar:/Users/daisymorrison/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.9.1/selenium-ie-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.9.1/selenium-remote-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-buffer/4.1.91.Final/netty-buffer-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-codec-http/4.1.91.Final/netty-codec-http-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-codec/4.1.91.Final/netty-codec-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-handler/4.1.91.Final/netty-handler-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-common/4.1.91.Final/netty-common-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.91.Final/netty-transport-classes-epoll-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.91.Final/netty-transport-classes-kqueue-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.91.Final/netty-transport-native-unix-common-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport/4.1.91.Final/netty-transport-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-resolver/4.1.91.Final/netty-resolver-4.1.91.Final.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-api/1.25.0/opentelemetry-api-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-context/1.25.0/opentelemetry-context-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.25.0/opentelemetry-exporter-logging-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.25.0/opentelemetry-sdk-metrics-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.25.0-alpha/opentelemetry-sdk-logs-1.25.0-alpha.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.25.0-alpha/opentelemetry-api-logs-1.25.0-alpha.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.25.0-alpha/opentelemetry-api-events-1.25.0-alpha.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.25.0/opentelemetry-sdk-common-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.25.0/opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.25.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.25.0/opentelemetry-sdk-trace-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.25.0/opentelemetry-sdk-1.25.0.jar:/Users/daisymorrison/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/daisymorrison/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/daisymorrison/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/daisymorrison/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/daisymorrison/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/daisymorrison/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/daisymorrison/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/daisymorrison/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/daisymorrison/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/daisymorrison/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/daisymorrison/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.9.1/selenium-safari-driver-4.9.1.jar:/Users/daisymorrison/.m2/repository/org/seleniumhq/selenium/selenium-support/4.9.1/selenium-support-4.9.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/daisymorrison"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/daisymorrison/Projects/9_testing_skills/bdd_cucumber/testing-skills-resources/makers_bdd"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/daisymorrison/Projects/9_testing_skills/bdd_cucumber/testing-skills-resources/makers_bdd/target/surefire/surefirebooter-20241129162119038_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1"/>
+    <property name="user.name" value="daisymorrison"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.7.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/daisymorrison/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/_6/sw3dvx1902vdjldyf33myqzc0000gp/T/"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/daisymorrison/Projects/9_testing_skills/bdd_cucumber/testing-skills-resources/makers_bdd"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/daisymorrison/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="Can access the FAQs page from the homepage" classname="Homepage" time="10.065">
+    <error message="Element &lt;a href=&quot;https://faq.makers.tech/knowledge/&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.7.1&apos;, java.version: &apos;23.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [f01ec491-a7c9-47ea-82d2-edede5c6d15d, clickElement {id=3598a582-c9c3-4a8d-85d7-5defd16de828}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0, moz:accessibilityChecks: false, moz:buildID: 20241121140525, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 56853, moz:profile: /var/folders/_6/sw3dvx1902v..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}&#10;Element: [[FirefoxDriver: firefox on mac (f01ec491-a7c9-47ea-82d2-edede5c6d15d)] -&gt; link text: FAQs]&#10;Session ID: f01ec491-a7c9-47ea-82d2-edede5c6d15d" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <a href="https://faq.makers.tech/knowledge/"> could not be scrolled into view
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7.1', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f01ec491-a7c9-47ea-82d2-edede5c6d15d, clickElement {id=3598a582-c9c3-4a8d-85d7-5defd16de828}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0, moz:accessibilityChecks: false, moz:buildID: 20241121140525, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 56853, moz:profile: /var/folders/_6/sw3dvx1902v..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (f01ec491-a7c9-47ea-82d2-edede5c6d15d)] -> link text: FAQs]
+Session ID: f01ec491-a7c9-47ea-82d2-edede5c6d15d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at makers_bdd.StepDefinitions.clickFAQs(StepDefinitions.java:56)
+	at ✽.I click the FAQs link(classpath:makers_bdd/homepage.feature:5)
+]]></error>
+    <system-out><![CDATA[
+Scenario: Can access the FAQs page from the homepage &amp#27;[90m# makers_bdd/homepage.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://makers.tech/"&amp#27;[0m&amp#27;[32m page&amp#27;[0m      &amp#27;[90m# makers_bdd.StepDefinitions.I_visit_web_page(java.lang.String)&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI click the FAQs link&amp#27;[0m                         &amp#27;[90m# makers_bdd.StepDefinitions.clickFAQs()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementNotInteractableException: Element <a href="https://faq.makers.tech/knowledge/"> could not be scrolled into view
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7.1', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f01ec491-a7c9-47ea-82d2-edede5c6d15d, clickElement {id=3598a582-c9c3-4a8d-85d7-5defd16de828}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0, moz:accessibilityChecks: false, moz:buildID: 20241121140525, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 56853, moz:profile: /var/folders/_6/sw3dvx1902v..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (f01ec491-a7c9-47ea-82d2-edede5c6d15d)] -> link text: FAQs]
+Session ID: f01ec491-a7c9-47ea-82d2-edede5c6d15d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at makers_bdd.StepDefinitions.clickFAQs(StepDefinitions.java:56)
+	at ✽.I click the FAQs link(classpath:makers_bdd/homepage.feature:5)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be on the FAQs page&amp#27;[0m                  &amp#27;[90m# makers_bdd.StepDefinitions.FAQPage()&amp#27;[0m
+
+    Embedding name [image/png 2150817 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Nov 29, 2024 4:21:19 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1732897283378	geckodriver	INFO	Listening on 127.0.0.1:42687
+1732897284551	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... /[::1]:19569/" "-foreground" "-no-remote" "-profile" "/var/folders/_6/sw3dvx1902vdjldyf33myqzc0000gp/T/rust_mozprofile0hbk3N"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1732897285080	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1732897285501	Marionette	INFO	Listening on port 52673
+Read port: 52673
+WebDriver BiDi listening on ws://127.0.0.1:19569
+1732897285620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+1732897288903	Marionette	INFO	Stopped listening on port 52673
+JavaScript warning: https://makers.tech/hs-fs/hub/4083056/hub_generated/template_assets/80674596816/1726581171935/Makers_September2023_Theme/makers_theme/js/main.min.js, line 4: Script terminated by timeout at:
+add/v.handle@https://cdn1.hubspotusercontent-eu1.net/hub/4083056/hub_generated/template_assets/80674596816/1726581171935/Makers_September2023_Theme/makers_theme/js/main.js:4:37925
+
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/es-ES.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/fr.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/ja-JP-mac.xpi
+]]></system-err>
+  </testcase>
+  <testcase name="FAQ search term displayed on results page" classname="FAQs Page" time="8.391">
+    <system-out><![CDATA[
+Scenario: FAQ search term displayed on results page             &amp#27;[90m# makers_bdd/search.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://faq.makers.tech/en/knowledge"&amp#27;[0m&amp#27;[32m page&amp#27;[0m &amp#27;[90m# makers_bdd.StepDefinitions.I_visit_web_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"hybrid"&amp#27;[0m                                    &amp#27;[90m# makers_bdd.StepDefinitions.search_for(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe results header should mention &amp#27;[0m&amp#27;[32m&amp#27;[1m"hybrid"&amp#27;[0m               &amp#27;[90m# makers_bdd.StepDefinitions.checkTitle(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 29, 2024 4:21:29 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1732897291386	geckodriver	INFO	Listening on 127.0.0.1:6999
+1732897291577	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... /[::1]:11012/" "-foreground" "-no-remote" "-profile" "/var/folders/_6/sw3dvx1902vdjldyf33myqzc0000gp/T/rust_mozprofilebo3S5d"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1732897291751	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1732897291948	Marionette	INFO	Listening on port 52751
+WebDriver BiDi listening on ws://127.0.0.1:11012
+Read port: 52751
+1732897292069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript error: https://7052064.fs1.hubspotusercontent-na1.net/hub/7052064/hub_generated/template_assets/1732293864370/hubspot/themes/knowledge/assets/sticky-header.min.js, line 1: TypeError: ResizeObserver.observe: Argument 1 is not an object.
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+1732897297439	Marionette	INFO	Stopped listening on port 52751
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/es-ES.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/fr.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/ja-JP-mac.xpi
+]]></system-err>
+  </testcase>
+  <testcase name="Two-word FAQ search term displayed on results page" classname="FAQs Page" time="6.649">
+    <system-out><![CDATA[
+Scenario: Two-word FAQ search term displayed on results page    &amp#27;[90m# makers_bdd/search.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://faq.makers.tech/en/knowledge"&amp#27;[0m&amp#27;[32m page&amp#27;[0m &amp#27;[90m# makers_bdd.StepDefinitions.I_visit_web_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"computer science"&amp#27;[0m                          &amp#27;[90m# makers_bdd.StepDefinitions.search_for(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe results header should mention &amp#27;[0m&amp#27;[32m&amp#27;[1m"computer science"&amp#27;[0m     &amp#27;[90m# makers_bdd.StepDefinitions.checkTitle(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 29, 2024 4:21:37 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1732897298141	geckodriver	INFO	Listening on 127.0.0.1:5226
+1732897298327	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... /[::1]:30488/" "-foreground" "-no-remote" "-profile" "/var/folders/_6/sw3dvx1902vdjldyf33myqzc0000gp/T/rust_mozprofilem5gDOP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1732897298506	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1732897298691	Marionette	INFO	Listening on port 52833
+WebDriver BiDi listening on ws://127.0.0.1:30488
+Read port: 52833
+1732897298813	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript error: https://7052064.fs1.hubspotusercontent-na1.net/hub/7052064/hub_generated/template_assets/1732293864370/hubspot/themes/knowledge/assets/sticky-header.min.js, line 1: TypeError: ResizeObserver.observe: Argument 1 is not an object.
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+1732897304075	Marionette	INFO	Stopped listening on port 52833
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/fr.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/es-ES.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/ja-JP-mac.xpi
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="6.444">
+    <system-out><![CDATA[
+Scenario Outline: Performing an FAQ search for different character types &amp#27;[90m# makers_bdd/search.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://faq.makers.tech/en/knowledge"&amp#27;[0m&amp#27;[32m page&amp#27;[0m          &amp#27;[90m# makers_bdd.StepDefinitions.I_visit_web_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"17%"&amp#27;[0m                                                &amp#27;[90m# makers_bdd.StepDefinitions.search_for(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe results header should mention &amp#27;[0m&amp#27;[32m&amp#27;[1m'Results for "17%"'&amp#27;[0m             &amp#27;[90m# makers_bdd.StepDefinitions.checkTitle(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 29, 2024 4:21:44 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1732897304804	geckodriver	INFO	Listening on 127.0.0.1:11371
+1732897305000	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... /[::1]:40288/" "-foreground" "-no-remote" "-profile" "/var/folders/_6/sw3dvx1902vdjldyf33myqzc0000gp/T/rust_mozprofileR2gI4J"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1732897305181	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1732897305370	Marionette	INFO	Listening on port 52916
+WebDriver BiDi listening on ws://127.0.0.1:40288
+Read port: 52916
+1732897305489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript error: https://7052064.fs1.hubspotusercontent-na1.net/hub/7052064/hub_generated/template_assets/1732293864370/hubspot/themes/knowledge/assets/sticky-header.min.js, line 1: TypeError: ResizeObserver.observe: Argument 1 is not an object.
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+1732897310520	Marionette	INFO	Stopped listening on port 52916
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/fr.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/es-ES.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/ja-JP-mac.xpi
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1.2" classname="Examples" time="6.651">
+    <system-out><![CDATA[
+Scenario Outline: Performing an FAQ search for different character types &amp#27;[90m# makers_bdd/search.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://faq.makers.tech/en/knowledge"&amp#27;[0m&amp#27;[32m page&amp#27;[0m          &amp#27;[90m# makers_bdd.StepDefinitions.I_visit_web_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"42%"&amp#27;[0m                                                &amp#27;[90m# makers_bdd.StepDefinitions.search_for(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe results header should mention &amp#27;[0m&amp#27;[32m&amp#27;[1m'No results for "42%"'&amp#27;[0m          &amp#27;[90m# makers_bdd.StepDefinitions.checkTitle(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 29, 2024 4:21:50 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1732897311240	geckodriver	INFO	Listening on 127.0.0.1:48756
+1732897311435	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... /[::1]:32319/" "-foreground" "-no-remote" "-profile" "/var/folders/_6/sw3dvx1902vdjldyf33myqzc0000gp/T/rust_mozprofile3ctteK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1732897311612	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1732897311806	Marionette	INFO	Listening on port 52996
+WebDriver BiDi listening on ws://127.0.0.1:32319
+Read port: 52996
+1732897311924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript error: https://7052064.fs1.hubspotusercontent-na1.net/hub/7052064/hub_generated/template_assets/1732293864370/hubspot/themes/knowledge/assets/sticky-header.min.js, line 1: TypeError: ResizeObserver.observe: Argument 1 is not an object.
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+1732897317174	Marionette	INFO	Stopped listening on port 52996
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/es-ES.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/ja-JP-mac.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/fr.xpi
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1.3" classname="Examples" time="6.929">
+    <system-out><![CDATA[
+Scenario Outline: Performing an FAQ search for different character types &amp#27;[90m# makers_bdd/search.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://faq.makers.tech/en/knowledge"&amp#27;[0m&amp#27;[32m page&amp#27;[0m          &amp#27;[90m# makers_bdd.StepDefinitions.I_visit_web_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"cliché"&amp#27;[0m                                             &amp#27;[90m# makers_bdd.StepDefinitions.search_for(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe results header should mention &amp#27;[0m&amp#27;[32m&amp#27;[1m'No results for "cliché"'&amp#27;[0m       &amp#27;[90m# makers_bdd.StepDefinitions.checkTitle(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 29, 2024 4:21:57 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1732897317932	geckodriver	INFO	Listening on 127.0.0.1:48056
+1732897318126	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... /[::1]:43637/" "-foreground" "-no-remote" "-profile" "/var/folders/_6/sw3dvx1902vdjldyf33myqzc0000gp/T/rust_mozprofileA3qxC7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1732897318306	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1732897318496	Marionette	INFO	Listening on port 53076
+WebDriver BiDi listening on ws://127.0.0.1:43637
+Read port: 53076
+1732897318613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript error: https://7052064.fs1.hubspotusercontent-na1.net/hub/7052064/hub_generated/template_assets/1732293864370/hubspot/themes/knowledge/assets/sticky-header.min.js, line 1: TypeError: ResizeObserver.observe: Argument 1 is not an object.
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+1732897324110	Marionette	INFO	Stopped listening on port 53076
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/fr.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/es-ES.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/ja-JP-mac.xpi
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1.4" classname="Examples" time="6.806">
+    <system-out><![CDATA[
+Scenario Outline: Performing an FAQ search for different character types &amp#27;[90m# makers_bdd/search.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://faq.makers.tech/en/knowledge"&amp#27;[0m&amp#27;[32m page&amp#27;[0m          &amp#27;[90m# makers_bdd.StepDefinitions.I_visit_web_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"😄"&amp#27;[0m                                                 &amp#27;[90m# makers_bdd.StepDefinitions.search_for(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe results header should mention &amp#27;[0m&amp#27;[32m&amp#27;[1m'No results for "😄"'&amp#27;[0m           &amp#27;[90m# makers_bdd.StepDefinitions.checkTitle(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 29, 2024 4:22:04 PM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1732897324810	geckodriver	INFO	Listening on 127.0.0.1:38016
+1732897325003	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/opt ... /[::1]:26146/" "-foreground" "-no-remote" "-profile" "/var/folders/_6/sw3dvx1902vdjldyf33myqzc0000gp/T/rust_mozprofileBNHAsw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1732897325180	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1732897325372	Marionette	INFO	Listening on port 53158
+WebDriver BiDi listening on ws://127.0.0.1:26146
+Read port: 53158
+1732897325489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript error: https://7052064.fs1.hubspotusercontent-na1.net/hub/7052064/hub_generated/template_assets/1732293864370/hubspot/themes/knowledge/assets/sticky-header.min.js, line 1: TypeError: ResizeObserver.observe: Argument 1 is not an object.
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://static.hsappstatic.net/feedback-web-renderer-ui/static-1.22604/bundles/fetcher.js, line 1: SecurityError: The operation is insecure.
+1732897330916	Marionette	INFO	Stopped listening on port 53158
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/es-ES.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/fr.xpi
+console.error: Policies: 
+  Incompatible add-on - https://releases.mozilla.org/pub/firefox/releases/132.0.2/mac/xpi/ja-JP-mac.xpi
+]]></system-err>
+  </testcase>
+</testsuite>
